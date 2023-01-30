@@ -282,6 +282,19 @@ body {
 			font-size: 1.8rem;
 		}
 	}
+
+	.hero-img {
+		padding: 30rem 2em;
+
+		hr {
+			margin: 0 auto;
+			width: 70%;
+		}
+
+		&__text {
+			font-size: 2.2rem;
+		}
+	}
 }
 
 @media (min-width: 992px) {
@@ -324,15 +337,15 @@ body {
 		}
 	}
 
-	.hero-img{
+	.hero-img {
 		padding: 40rem 2em;
 		background-image: c.$blue-gradient, url('../img/tahiti-big.jpg');
 
-		&__title{
+		&__title {
 			font-size: 7.2rem;
 		}
 
-		hr{
+		hr {
 			width: 60%;
 			max-width: 900px;
 		}
